@@ -1,0 +1,24 @@
+fastapi
+uvicorn[standard]
+
+# HuggingFace + Transformers
+transformers
+accelerate
+sentencepiece
+
+# PDF parsing & OCR
+pymupdf<1.25.0
+pytesseract
+Pillow
+
+# Vector DB
+chromadb
+
+# Utilities
+numpy
+torch
+nltk
+requests
+
+# For tunneling (if needed in Colab)
+pyngrok
